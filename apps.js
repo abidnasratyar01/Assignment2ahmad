@@ -5,13 +5,9 @@ var state = {
     isAddEnabled: true,
 }
 
-
-
 $(document).ready(function(){
 updateDOM();           
 }); 
-
-
 
 function getId() {
     return state.count++;
